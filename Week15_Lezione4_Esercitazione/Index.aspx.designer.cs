@@ -15,13 +15,22 @@ namespace Week15_Lezione4_Esercitazione
     {
 
         /// <summary>
-        /// CarModels control.
+        /// TotalePreventivo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CarModels;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl TotalePreventivo;
+
+        /// <summary>
+        /// BtnTotale control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnTotale;
 
         /// <summary>
         /// CarDetails control.
@@ -31,5 +40,32 @@ namespace Week15_Lezione4_Esercitazione
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl CarDetails;
+
+        /// <summary>
+        /// CarModels control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList CarModels;
+
+        /// <summary>
+        /// WarrantyYears control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList WarrantyYears;
+
+        /// <summary>
+        /// OptionalsList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList OptionalsList;
     }
 }
